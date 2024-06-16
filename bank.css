@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    margin-top: 3px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border: 2px solid aquamarine;
+    border-radius: 30px;
+    height: 45px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: black;
+    }
+h1{
+    color:#d84a08;
+    position: absolute;
+    left: 50px;
+    border-radius: 30px;
+}
+h1:hover{
+    color: aqua;
+}
+#nav{
+    color: #d84a08;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 5px;
+}
+#nav:hover{
+    color: aqua;
+}
+#login{
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    top: 5px;
+    color: #d84a08;
+    left: 250px;
+    transition: 0.5s;
+    
+    
+}
+#login:hover{
+color: aqua;
+}
+.blink{
+    color: aliceblue;
+    animation: blink 2s linear infinite;
+}
+@keyframes blink {
+    50%{
+        opacity: 0;
+    }
+}
+.con1{
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    top: 120px;
+    left: 50px;
+    font-size: 20px;
+}
+marp{
+    color: orangered;
+}
+#logo{
+    position: absolute;
+    top: 0;
+    left: 3px;
+    height: 50px;
+}
+  /* Boostrup */
+  .slide{
+    height: 300px;
+    width: 600px;
+    margin-left: 600px;
+    margin-top: 150px;
+    overflow: hidden;
+  }
+  .two{
+    top: 0;
+   margin-left: 100px;
+  }
+  #p2{
+    font-size: 7px;font-style: oblique;
+  }
+  h6{
+    font-size: 10px;
+  }
+  .con4{
+    height: 550px;
+    width: 100%;
+    position: relative;
+  }
+ #carouselExampleFade{ 
+    height: 500px; 
+    
+  margin-left: 100px;
+  
+ }
+ .carousel-item img{
+border-radius: 40px;
+ }
+ .four{
+    position: absolute;
+    top: 65px;
+   left: 800px;
+    height: 300px;
+    width: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px;
+}
+hr{
+    border-top: 10px solid #d84a08;
+    border-radius: 10px;
+}
+.con5{
+    height: 500px;
+    position: relative;
+}
+.im3{
+    margin-top: 100px;
+    margin-left: 700px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.par{
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    top: 0;
+    margin-left: 10px;
+    overflow: scroll;
+}
+footer * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}  
+footer ul{
+    list-style: none;
+}  
+footer{
+    color: #fff;
+    background-color: #121315;
+}  
+footer p{
+    color: #ccc;
+    max-width: 900px;
+    font-size: 0.9em;
+    line-height: 19px;
+    text-align: center;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer4{
+    height: 200px;
+    text-align: center;
+}
+.footer4 .icon li{
+    display: inline-block;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+.footer4 .icon a{
+    font-size: 1.1em;
+    width: 2em;
+    height: 2em;
+    border: 1px #fff solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.footer4 .icon a:hover{
+    background: #fff;
+    color: #111;
+}
+.footer4 p{
+    margin: 0 auto;
+}
+
+
+
+    
